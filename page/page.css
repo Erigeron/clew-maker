@@ -1,0 +1,35 @@
+body {
+  margin: 0px;
+  display: -webkit-flex;
+}
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+#logo {
+  padding: 10px 40px;
+}
+#logo svg {
+  box-shadow: 0px 0px 4px #ccc;
+}
+#logo svg #path {
+  stroke: #f00;
+  fill: none;
+  stroke-width: 4px;
+}
+#ctrl div[id^=p] {
+  width: 100px;
+  color: #b3b3b3;
+  font-size: 13px;
+}
+#ctrl div[id^=p]:hover {
+  box-shadow: 0px 0px 4px #808080;
+}
+#ctrl .sight {
+  background: #cfcffc;
+}
+.x,
+.y {
+  color: #339;
+  margin-left: 20px;
+}
